@@ -1308,6 +1308,72 @@
 		)
 		(uuid "69d689b7-7a66-4e96-a29d-0b04e983d4a1")
 	)
+	(global_label "LE"
+		(shape input)
+		(at 127 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c2e31cd-2850-4332-afde-f5b1309a8a75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.1623 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 127 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "453d46be-d9bb-4cdf-8882-19dcb15eef85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.5533 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 127 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af2fc96d-0ca5-467d-99ac-a5d6ae4f2623")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.0695 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:AC")
 		(at 25.4 25.4 0)
@@ -1442,7 +1508,7 @@
 	)
 	(symbol
 		(lib_id "PCM_arduino-library:Arduino_Uno_R3_SMD_Shield")
-		(at 156.21 93.98 0)
+		(at 60.96 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1451,7 +1517,7 @@
 		(fields_autoplaced yes)
 		(uuid "79b01ad7-5102-41de-8cdd-f1e60f0b1083")
 		(property "Reference" "A1"
-			(at 156.21 58.42 0)
+			(at 60.96 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1459,7 +1525,7 @@
 			)
 		)
 		(property "Value" "Arduino_Uno_R3_SMD_Shield"
-			(at 156.21 60.96 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1467,7 +1533,7 @@
 			)
 		)
 		(property "Footprint" "PCM_arduino-library:Arduino_Uno_R3_Shield"
-			(at 156.21 132.08 0)
+			(at 60.96 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1476,7 +1542,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.arduino.cc/hardware/uno-rev3-smd"
-			(at 156.21 128.27 0)
+			(at 60.96 118.11 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1485,7 +1551,7 @@
 			)
 		)
 		(property "Description" "Shield for Arduino UNO R3 SMD"
-			(at 156.21 93.98 0)
+			(at 60.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,8 +1680,8 @@
 		)
 	)
 	(sheet
-		(at 0 252.73)
-		(size 90.17 58.42)
+		(at 120.65 50.8)
+		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1624,9 +1690,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "7ca1bf51-2fe7-4a3d-a5f0-a2cb0a1e1cb0")
-		(property "Sheetname" "Untitled Sheet"
-			(at 0 252.0184 0)
+		(uuid "221010f8-d345-4bdc-bd5c-042e237e7a1e")
+		(property "Sheetname" "Numitron Control"
+			(at 120.65 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,8 +1700,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 0 311.7346 0)
+		(property "Sheetfile" "numitron_control.kicad_sch"
+			(at 120.65 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
