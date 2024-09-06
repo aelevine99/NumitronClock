@@ -303,7 +303,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -337,23 +337,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -400,10 +388,6 @@
     [
       "361dfde8-db82-4f79-b593-288fe0fd1919",
       "Root"
-    ],
-    [
-      "221010f8-d345-4bdc-bd5c-042e237e7a1e",
-      "Numitron Control"
     ]
   ],
   "text_variables": {}
