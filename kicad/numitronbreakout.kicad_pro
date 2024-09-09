@@ -241,7 +241,7 @@
     ]
   },
   "meta": {
-    "filename": "kicad.kicad_pro",
+    "filename": "numitronbreakout.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -388,6 +388,10 @@
     [
       "361dfde8-db82-4f79-b593-288fe0fd1919",
       "Root"
+    ],
+    [
+      "5a7236ec-996c-400f-bb77-dcbcfd345148",
+      "Voltage Boost"
     ]
   ],
   "text_variables": {}
