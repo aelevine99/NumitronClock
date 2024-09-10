@@ -2286,7 +2286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 191.516 127.254 90)
 			(effects
 				(font
@@ -2356,7 +2356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.1652 130.81 0)
 			(effects
 				(font
@@ -2424,7 +2424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 127 63.5 0)
 			(effects
 				(font
@@ -2494,7 +2494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 229.5652 130.81 0)
 			(effects
 				(font
@@ -2562,7 +2562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTE0016C"
+		(property "Footprint" "NewFootprints:RTE0016C"
 			(at 127 101.6 0)
 			(effects
 				(font
@@ -2572,7 +2572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TPS61391RTER"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61391.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1725979079375&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps61391"
 			(at 127 101.6 0)
 			(effects
 				(font
@@ -2679,7 +2679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 178.7652 130.81 0)
 			(effects
 				(font
@@ -2749,7 +2749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 89.916 127.254 90)
 			(effects
 				(font
@@ -2819,7 +2819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.116 127.254 90)
 			(effects
 				(font
@@ -2889,7 +2889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.516 76.454 90)
 			(effects
 				(font
@@ -2959,7 +2959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.4652 130.81 0)
 			(effects
 				(font
@@ -3029,7 +3029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 51.7652 130.81 0)
 			(effects
 				(font
@@ -3099,7 +3099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 39.0652 130.81 0)
 			(effects
 				(font
@@ -3168,7 +3168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 63.5 0)
 			(effects
 				(font
@@ -3238,7 +3238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 216.916 101.854 90)
 			(effects
 				(font
@@ -3308,7 +3308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 216.916 76.454 90)
 			(effects
 				(font
@@ -3378,7 +3378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 204.1652 130.81 0)
 			(effects
 				(font
@@ -3448,7 +3448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 51.816 76.454 90)
 			(effects
 				(font
