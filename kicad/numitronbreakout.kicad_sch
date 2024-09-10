@@ -629,7 +629,7 @@
 				)
 			)
 		)
-		(symbol "New_Library:HV5812WG-G"
+		(symbol "NewSymbols:HV5812WG-G"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1262,26 +1262,24 @@
 				)
 			)
 		)
-		(symbol "New_Library:IV-12"
+		(symbol "NewSymbols:IV-12"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at -22.86 0.6351 0)
+			(property "Reference" "U"
+				(at 0 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "~"
-				(at -22.86 -1.27 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -1665,7 +1663,7 @@
 				(pin input line
 					(at -11.43 8.89 270)
 					(length 2.54)
-					(name "1"
+					(name "e"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1683,7 +1681,7 @@
 				(pin input line
 					(at 11.43 8.89 270)
 					(length 2.54)
-					(name "10"
+					(name "f"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1701,7 +1699,7 @@
 				(pin power_in line
 					(at 3.81 -8.89 90)
 					(length 2.54)
-					(name "2"
+					(name "cathode"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1719,7 +1717,7 @@
 				(pin power_in line
 					(at -3.81 -8.89 90)
 					(length 2.54)
-					(name "3"
+					(name "cathode"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1755,7 +1753,7 @@
 				(pin input line
 					(at -7.62 8.89 270)
 					(length 2.54)
-					(name "5"
+					(name "d"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1773,7 +1771,7 @@
 				(pin input line
 					(at -3.81 8.89 270)
 					(length 2.54)
-					(name "6"
+					(name "c"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1791,7 +1789,7 @@
 				(pin input line
 					(at 0 8.89 270)
 					(length 2.54)
-					(name "7"
+					(name "b"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1809,7 +1807,7 @@
 				(pin input line
 					(at 3.81 8.89 270)
 					(length 2.54)
-					(name "8"
+					(name "a"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1827,7 +1825,7 @@
 				(pin input line
 					(at 7.62 8.89 270)
 					(length 2.54)
-					(name "9"
+					(name "g"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3618,7 +3616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:HV5812WG-G")
+		(lib_id "NewSymbols:HV5812WG-G")
 		(at 99.06 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4503,7 +4501,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:IV-12")
+		(lib_id "NewSymbols:IV-12")
 		(at 71.12 140.97 270)
 		(mirror x)
 		(unit 1)
@@ -5016,7 +5014,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:IV-12")
+		(lib_id "NewSymbols:IV-12")
 		(at 182.88 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)

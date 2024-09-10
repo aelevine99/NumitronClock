@@ -5,7 +5,7 @@
 	(uuid "051813b7-6b99-43fc-83a3-50bfcba67b71")
 	(paper "USLetter")
 	(title_block
-		(title "NUMITRON CONTROL")
+		(title "BOOST CONVERTER")
 		(rev "0")
 	)
 	(lib_symbols
@@ -617,7 +617,7 @@
 				)
 			)
 		)
-		(symbol "New_Library:TPS61391RTER"
+		(symbol "NewSymbols:TPS61391RTER"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2537,7 +2537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:TPS61391RTER")
+		(lib_id "NewSymbols:TPS61391RTER")
 		(at 127 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
