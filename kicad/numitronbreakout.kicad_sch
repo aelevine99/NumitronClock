@@ -2803,16 +2803,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 38.1) (xy 139.7 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43be4bdd-2fde-4985-86f3-2b53e8da97e3")
-	)
-	(wire
-		(pts
 			(xy 45.72 129.54) (xy 45.72 130.81)
 		)
 		(stroke
@@ -3050,16 +3040,6 @@
 			(type default)
 		)
 		(uuid "9856fea0-44a8-4405-b71f-d8737c0edfac")
-	)
-	(wire
-		(pts
-			(xy 138.43 50.8) (xy 139.7 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e5bf9e-0db4-41e4-8ae3-3f3d44c5432d")
 	)
 	(wire
 		(pts
@@ -3302,7 +3282,7 @@
 	)
 	(text "INPUT PINS"
 		(exclude_from_sim no)
-		(at 12.954 63.5 0)
+		(at 12.7 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3476,28 +3456,6 @@
 			)
 		)
 	)
-	(global_label "BOOST_VIN"
-		(shape input)
-		(at 139.7 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a45c1dee-8898-406d-abb1-d02f56436690")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.7848 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CLOCK"
 		(shape input)
 		(at 120.65 142.24 0)
@@ -3555,28 +3513,6 @@
 		(uuid "e7f1b6a2-949b-447b-84ec-60eb6aee2292")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.0781 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BOOST_VOUT"
-		(shape input)
-		(at 139.7 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f3147c6a-91bd-44df-ad59-cda53c234992")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.4781 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,72 +4220,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 138.43 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54aee3d8-9729-446f-b978-6d7050f73bf5")
-		(property "Reference" "#PWR015"
-			(at 138.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 138.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "141345fb-72b1-4f55-8c09-d1e7d23ce892")
-		)
-		(instances
-			(project "numitronbreakout"
-				(path "/361dfde8-db82-4f79-b593-288fe0fd1919"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V5")
 		(at 25.4 127 0)
 		(unit 1)
@@ -4558,7 +4428,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "879f53fd-afa7-4584-83e1-c0b7f55e2c5f")
+			(uuid "879f53fd-afa7-4584-83e1-c0b7f55e2c60")
 		)
 		(instances
 			(project ""
@@ -4690,7 +4560,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "879f53fd-afa7-4584-83e1-c0b7f55e2c5f")
+			(uuid "879f53fd-afa7-4584-83e1-c0b7f55e2c61")
 		)
 		(instances
 			(project ""
@@ -4908,7 +4778,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "879f53fd-afa7-4584-83e1-c0b7f55e2c5f")
+			(uuid "879f53fd-afa7-4584-83e1-c0b7f55e2c62")
 		)
 		(instances
 			(project ""
@@ -5256,7 +5126,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2f95823-ac3a-4f18-a1d1-094b4823f365")
+			(uuid "f2f95823-ac3a-4f18-a1d1-094b4823f366")
 		)
 		(instances
 			(project ""
@@ -5499,78 +5369,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "879f53fd-afa7-4584-83e1-c0b7f55e2c5f")
+			(uuid "879f53fd-afa7-4584-83e1-c0b7f55e2c63")
 		)
 		(instances
 			(project ""
 				(path "/361dfde8-db82-4f79-b593-288fe0fd1919"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+36V")
-		(at 138.43 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db077d34-1319-4f7b-882a-6a6268084acb")
-		(property "Reference" "#PWR018"
-			(at 138.43 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+30V"
-			(at 138.43 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+36V\""
-			(at 138.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f15532d-6328-4bc8-a716-85201d3eca8d")
-		)
-		(instances
-			(project "numitronbreakout"
-				(path "/361dfde8-db82-4f79-b593-288fe0fd1919"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
