@@ -4610,7 +4610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 161.036 49.784 90)
 			(effects
 				(font
@@ -4628,7 +4628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 1K OHM 1% 1/4W 1206"
 			(at 160.02 49.53 0)
 			(effects
 				(font
@@ -4647,6 +4647,24 @@
 			)
 		)
 		(property "Part No" "CRCW040248R7FKED"
+			(at 160.02 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 160.02 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW12061K00FKEA"
 			(at 160.02 49.53 0)
 			(effects
 				(font
@@ -4781,7 +4799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
+		(property "Description" "IC REG LIN POS ADJ 1.5A TO220-3"
 			(at 88.9 38.1 0)
 			(effects
 				(font
@@ -4800,6 +4818,24 @@
 			)
 		)
 		(property "Part No" "LM317TNS/NOPB-ND"
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM317TNS/NOPB-ND"
 			(at 88.9 38.1 0)
 			(effects
 				(font
@@ -4891,6 +4927,24 @@
 			)
 		)
 		(property "Part No" "HV5812WG-G"
+			(at 63.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip Technology"
+			(at 63.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HV5812WG-G"
 			(at 63.5 109.22 0)
 			(effects
 				(font
@@ -5153,7 +5207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 97.536 49.784 90)
 			(effects
 				(font
@@ -5171,7 +5225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 68 OHM 1% 1/4W 1206"
 			(at 96.52 49.53 0)
 			(effects
 				(font
@@ -5190,6 +5244,24 @@
 			)
 		)
 		(property "Part No" "CRCW040248R7FKED"
+			(at 96.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 96.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW120668R0FKEA"
 			(at 96.52 49.53 0)
 			(effects
 				(font
@@ -5506,7 +5578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 97.536 42.164 90)
 			(effects
 				(font
@@ -5524,7 +5596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 330 OHM 1% 1/4W 1206"
 			(at 96.52 41.91 0)
 			(effects
 				(font
@@ -5543,6 +5615,24 @@
 			)
 		)
 		(property "Part No" "CRCW0402240RFKED"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW1206330RFKEA"
 			(at 96.52 41.91 0)
 			(effects
 				(font
@@ -5931,7 +6021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1256/CL31B104KBCNNNC_Spec.pdf"
 			(at 130.81 91.44 0)
 			(effects
 				(font
@@ -5940,7 +6030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
 			(at 130.81 91.44 0)
 			(effects
 				(font
@@ -5959,6 +6049,24 @@
 			)
 		)
 		(property "Part No" ""
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31B104KBCNNNC"
 			(at 130.81 91.44 0)
 			(effects
 				(font
@@ -6120,7 +6228,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6441,7 +6549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
+		(property "Description" "IC REG LIN POS ADJ 1.5A TO220-3"
 			(at 152.4 38.1 0)
 			(effects
 				(font
@@ -6460,6 +6568,24 @@
 			)
 		)
 		(property "Part No" "LM317TNS/NOPB-ND"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM317TNS/NOPB-ND"
 			(at 152.4 38.1 0)
 			(effects
 				(font
@@ -6713,7 +6839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 161.036 42.164 90)
 			(effects
 				(font
@@ -6731,7 +6857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 330 OHM 1% 1/4W 1206"
 			(at 160.02 41.91 0)
 			(effects
 				(font
@@ -6750,6 +6876,24 @@
 			)
 		)
 		(property "Part No" "CRCW0402240RFKED"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW1206330RFKEA"
 			(at 160.02 41.91 0)
 			(effects
 				(font
@@ -6845,7 +6989,7 @@
 		(at 147.32 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7128,7 +7272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED Power Supplies 9-28Vin 2-30Vout 600mA pin style"
+		(property "Description" "LED DVR CC BUCK-BST 2-30V 600MA"
 			(at 191.77 38.1 0)
 			(effects
 				(font
@@ -7177,7 +7321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Mean Well"
+		(property "Manufacturer_Name" "MEAN WELL USA Inc."
 			(at 223.52 50.8 0)
 			(effects
 				(font
@@ -7194,6 +7338,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFR" "MEAN WELL USA Inc."
+			(at 191.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "LDB-600L"
+			(at 191.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
