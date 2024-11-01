@@ -1,0 +1,16 @@
+.LDB-600L :1 ;LED Power Supplies 9-28Vin 2-30Vout 600mA pin style
+LDB600L
+*STM PS
+*NGS
+*PLB 1="-VIN_1" 2="-VIN_2" 11="-VOUT_1" 12="-VOUT_2" 13="+VOUT_1" 14="+VOUT_2" 21="PWM DIM" 23="+VIN_1" 24="+VIN_2"
+*MXP 9
+*DFN LDB-600L
+~!Mouser Part Number (709-LDB-600L)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/MEAN-WELL/LDB-600L/?qs=GaJ26EWJkZSmCfvt0r4d6g%3D%3D)
+~!Manufacturer_Name (Mean Well)
+~!Manufacturer_Part_Number (LDB-600L)
+~!Link Datasheet (https://www.meanwell.com/Upload/PDF/LDB-L/LDB-L-SPEC.PDF)
+~!Height (12.25mm)
+~!3D_Model (LDB-600L)
+LDB-600L
+1.1!U 2.1!U 11.1!U 12.1!U 13.1!U 14.1!U 21.1!U 23.1!U 24.1!U 

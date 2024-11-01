@@ -1,0 +1,156 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LDB-600L"
+   (description "LED Power Supplies 9-28Vin 2-30Vout 600mA pin style")
+   (family "ANA")
+   (package "LDB600L")
+   (attribute "Datasheet Link" "https://www.meanwell.com/Upload/PDF/LDB-L/LDB-L-SPEC.PDF")
+   (attribute "Geometry.Height" "12.25mm")
+   (attribute "Mouser Part Number" "709-LDB-600L")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/LDB-600L/?qs=GaJ26EWJkZSmCfvt0r4d6g%3D%3D")
+   (attribute "Manufacturer_Name" "Mean Well")
+   (attribute "Manufacturer_Part_Number" "LDB-600L")
+   (gate
+    (symbol "LDB-600L")
+    (pin "-VIN_1" 1 PS)
+    (pin "-VIN_2" 2 PS)
+    (pin "-VOUT_1" 11 PS)
+    (pin "-VOUT_2" 12 PS)
+    (pin "+VOUT_1" 13 PS)
+    (pin "+VOUT_2" 14 PS)
+    (pin "PWM_DIM" 21 PS)
+    (pin "+VIN_1" 23 PS)
+    (pin "+VIN_2" 24 PS)
+   )
+  )
+  (symbol "LDB-600L"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LDB600L"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 17.77 -29.74)
+      (pt -2.53 -29.74)
+      (pt -2.53 2.06)
+      (pt 17.77 2.06)
+      (pt 17.77 -29.74))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 18.77 3.06)
+      (pt -3.53 3.06)
+      (pt -3.53 -30.74)
+      (pt 18.77 -30.74)
+      (pt 18.77 3.06))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 17.77 2.06)
+      (pt -2.53 2.06)
+      (pt -2.53 -29.74)
+      (pt 17.77 -29.74)
+      (pt 17.77 2.06))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.1 0)
+      (arc (pt -3.100 0.000) (pt -3.100 -0.050) (pt -3.000 0.050) (start 180.0) (sweep -180.0))
+      (pt -3 0)
+      (arc (pt -3.000 0.000) (pt -3.100 -0.050) (pt -3.000 0.050) (start 180.0) (sweep .0))
+      (pt -3.1 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 0.000 -2.540) (padstack 0))
+   (leg 11 (pt 0.000 -25.400) (padstack 0))
+   (leg 12 (pt 0.000 -27.940) (padstack 0))
+   (leg 13 (pt 15.240 -27.940) (padstack 0))
+   (leg 14 (pt 15.240 -25.400) (padstack 0))
+   (leg 21 (pt 15.240 -7.620) (padstack 0))
+   (leg 23 (pt 15.240 -2.540) (padstack 0))
+   (leg 24 (pt 15.240 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (round 1.300))
+    (pad (layer INNER) (round 1.300))
+    (pad (layer BCOP) (round 1.300))
+   )
+   (padstack 1
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (square 1.300))
+    (pad (layer INNER) (round 1.300))
+    (pad (layer BCOP) (square 1.300))
+   )
+   (model "LDB-600L.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

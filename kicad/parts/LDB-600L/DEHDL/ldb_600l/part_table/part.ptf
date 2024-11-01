@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LDB_600L'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mean Well", "LDB-600L" (!) = "", "LDB600L", "Other", "709-LDB-600L", "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/LDB-600L/?qs=GaJ26EWJkZSmCfvt0r4d6g%3D%3D", "LED Power Supplies 9-28Vin 2-30Vout 600mA pin style", "https://www.meanwell.com/Upload/PDF/LDB-L/LDB-L-SPEC.PDF", "12.25 mm"
+END_PART
+
+END.

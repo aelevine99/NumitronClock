@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LDB-600L
+D LED Power Supplies 9-28Vin 2-30Vout 600mA pin style
+K
+F https://www.meanwell.com/Upload/PDF/LDB-L/LDB-L-SPEC.PDF
+$ENDCMP
+#
+#End Doc Library

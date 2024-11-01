@@ -1,0 +1,9 @@
+Manufacturer=Mean Well
+PartNumber=LDB-600L
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=9
+Version=1.7
+Released=2023-09-11 08:44:54
+Downloaded=2024-11-01 19:52:50
+3D=Y

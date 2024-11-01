@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LDB-600L"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-09-11-08:44:54)
+    (mountForm default
+        (footprintRef "LDB600L")
+        (spec "System")
+    )
+)
