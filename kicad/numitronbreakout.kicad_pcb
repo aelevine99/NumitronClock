@@ -688,7 +688,7 @@
 		(at 150 100)
 		(tags "HV5812WG-G ")
 		(property "Reference" "U1"
-			(at 0 -13 0)
+			(at 0 -10 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e0a80fd6-faf0-4fe6-aaa3-06f5a7f5cdb0")
@@ -3615,6 +3615,17 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "58a040e9-7d5c-41ae-a4b2-1350a7373c67")
+		)
+		(model "${KIPRJMOD}/parts/66100811722/66100811722.step"
+			(offset
+				(xyz -2.4 1.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 180)
+			)
 		)
 	)
 	(footprint "NewFootprints:LDB600L"
