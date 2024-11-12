@@ -3478,6 +3478,12 @@
 		)
 	)
 	(junction
+		(at 241.3 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d19a82c-5820-4884-bd4d-e56cc4d9158a")
+	)
+	(junction
 		(at 160.02 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3659,7 +3665,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 48.26) (xy 231.14 48.26)
+			(xy 227.33 48.26) (xy 228.6 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3799,6 +3805,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 45.72) (xy 241.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fd1f85-2bab-4058-813d-2fc2d418b768")
+	)
+	(wire
+		(pts
 			(xy 144.78 38.1) (xy 139.7 38.1)
 		)
 		(stroke
@@ -3836,6 +3852,16 @@
 			(type default)
 		)
 		(uuid "4b73607c-924e-45d6-b7e3-f98ed0cf5f88")
+	)
+	(wire
+		(pts
+			(xy 241.3 38.1) (xy 241.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507180c9-73af-49bb-a574-626415397a6a")
 	)
 	(wire
 		(pts
@@ -4279,6 +4305,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 41.91) (xy 34.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5586d8-67f0-4990-8d54-0b9850e611cd")
+	)
+	(wire
+		(pts
 			(xy 45.72 123.19) (xy 45.72 124.46)
 		)
 		(stroke
@@ -4328,7 +4364,7 @@
 		)
 		(uuid "7b5048fe-c528-4db5-8b47-3a0185674289")
 	)
-	(text "DC-DC REGULATOR 12V TO 30V"
+	(text "DC-DC REGULATOR 12V TO 32V"
 		(exclude_from_sim no)
 		(at 178.054 63.5 0)
 		(effects
@@ -4449,6 +4485,28 @@
 			)
 		)
 	)
+	(global_label "DIMMING"
+		(shape input)
+		(at 34.29 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7079df3c-ea29-4f23-8a59-5eb2397f4fd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.2581 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D_OUT"
 		(shape input)
 		(at 62.23 111.76 180)
@@ -4484,6 +4542,28 @@
 		(uuid "81ecc6e2-9c15-4d3f-bba6-f8a06eb0bcb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.4677 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIMMING"
+		(shape input)
+		(at 241.3 38.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3d743ba-0222-4247-91df-f2c363d1e034")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.3 27.1319 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4770,7 @@
 	)
 	(symbol
 		(lib_id "power:+36V")
-		(at 231.14 48.26 0)
+		(at 228.6 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4699,7 +4779,7 @@
 		(fields_autoplaced yes)
 		(uuid "11b6d410-9023-41ff-9497-63270d0cd196")
 		(property "Reference" "#PWR021"
-			(at 231.14 52.07 0)
+			(at 224.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,15 +4788,16 @@
 			)
 		)
 		(property "Value" "+30V"
-			(at 231.14 43.18 0)
+			(at 232.41 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 48.26 0)
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 48.26 0)
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+36V\""
-			(at 231.14 48.26 0)
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5871,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 228.6 38.1 0)
+		(at 228.6 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5799,7 +5880,7 @@
 		(fields_autoplaced yes)
 		(uuid "610e979e-aec7-4269-9f09-3fa6828eae3d")
 		(property "Reference" "#PWR019"
-			(at 228.6 41.91 0)
+			(at 224.79 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,11 +5889,12 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 228.6 33.02 0)
+			(at 232.41 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6631,6 +6713,113 @@
 		)
 	)
 	(symbol
+		(lib_name "R_US_2")
+		(lib_id "Device:R_US")
+		(at 241.3 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ae78f92-a8ae-4d1f-addf-ab280945bfad")
+		(property "Reference" "R5"
+			(at 243.84 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 243.84 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 242.316 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1K OHM 1% 1/4W 1206"
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Dale"
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "CRCW040248R7FKED"
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW12061K00FKEA"
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9fc13283-1de6-48f1-9541-9df401eb5534")
+		)
+		(pin "1"
+			(uuid "c5f2e24e-e8a9-42c4-8f0d-75fe4d410bcf")
+		)
+		(instances
+			(project "numitronbreakout"
+				(path "/361dfde8-db82-4f79-b593-288fe0fd1919"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 190.5 50.8 0)
 		(unit 1)
@@ -6930,6 +7119,72 @@
 			(project "numitronbreakout"
 				(path "/361dfde8-db82-4f79-b593-288fe0fd1919"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b751800c-d6bc-46d7-91b3-b981c49599ce")
+		(property "Reference" "#PWR022"
+			(at 241.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd2e246f-0a28-4515-a5cb-8ec248fe4c1f")
+		)
+		(instances
+			(project "numitronbreakout"
+				(path "/361dfde8-db82-4f79-b593-288fe0fd1919"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7262,7 +7517,7 @@
 				)
 			)
 		)
-		(property "Value" "LDB-600L"
+		(property "Value" "LDB-500L"
 			(at 209.55 33.02 0)
 			(effects
 				(font
@@ -7290,7 +7545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED DVR CC BUCK-BST 2-30V 600MA"
+		(property "Description" "LED DVR CC BUCK-BST 2-32V 500MA"
 			(at 191.77 38.1 0)
 			(effects
 				(font
@@ -7299,58 +7554,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "LED Power Supplies 9-28Vin 2-30Vout 600mA pin style"
+		(property "Description_1" "500mA 2 ~ 32V Constant Current LED Driver Buck-Boost Topology 1 Output"
 			(at 223.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "12.25"
-			(at 223.52 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "709-LDB-600L"
-			(at 223.52 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/LDB-600L/?qs=GaJ26EWJkZSmCfvt0r4d6g%3D%3D"
-			(at 223.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "MEAN WELL USA Inc."
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LDB-600L"
-			(at 223.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No" "LDB-600L"
+		(property "Part No" "LDB-500L"
 			(at 191.77 38.1 0)
 			(effects
 				(font
