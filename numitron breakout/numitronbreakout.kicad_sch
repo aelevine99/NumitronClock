@@ -7517,7 +7517,7 @@
 				)
 			)
 		)
-		(property "Value" "LDB-500L"
+		(property "Value" "LDB-350L"
 			(at 209.55 33.02 0)
 			(effects
 				(font
@@ -7545,7 +7545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED DVR CC BUCK-BST 2-32V 500MA"
+		(property "Description" "LED DVR CC BUCK-BST 2-40V 350MA"
 			(at 191.77 38.1 0)
 			(effects
 				(font
@@ -7554,7 +7554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "500mA 2 ~ 32V Constant Current LED Driver Buck-Boost Topology 1 Output"
+		(property "Description_1" "350mA 2 ~ 40V Constant Current LED Driver Buck-Boost Topology 1 Output"
 			(at 223.52 40.64 0)
 			(effects
 				(font
