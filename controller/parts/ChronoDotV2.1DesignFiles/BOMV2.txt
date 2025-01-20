@@ -1,0 +1,9 @@
+Bill of Materials
+Design: ChronoDot V2.1
+Author: Garrett Mace, CTO, macetech LLC
+
+IC1	DS3231SN RTC http://www.maxim-ic.com/datasheet/index.mvp/id/4627
+C1	0805 0.1uF ceramic capacitor
+R1, R2	Optional 4.7K pullup resistors, 1/8th watt
+J1, J2	1x4 0.1” square pin headers
+U1	KEYSTONE 3012 Battery holder
