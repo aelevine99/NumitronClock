@@ -1,0 +1,210 @@
+(footprint "BATTCON_12MM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "12mm Coin Cell (CR1225) Battery Holder - SMD\n\nHolds battery in place with friction. The metal housing connects to the positive side of the battery and the PCB pad underneath is connected to the negative side.\n\nhttps://cdn.sparkfun.com/datasheets/Prototyping/KEY-3000.pdf Datasheet\n\nDevices Using\n\n• BATTERY")
+	(property "Reference" "REF**"
+		(at 0 6.477 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7d7c34c2-00d1-4e54-ad51-043f6acdbd76")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "BATTCON_12MM"
+		(at 0 4.953 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "04f2ba8b-16df-4921-ade8-17aaef586ec9")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify right top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab42248b-453a-49d2-a970-929ad93842cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d18470d-520d-45c4-91a7-4b699280adb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a7d452a-d534-44fc-a298-06336638bc15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Paste")
+		(uuid "7724f0c4-58d8-46fe-bd03-720e65c2d86f")
+	)
+	(fp_line
+		(start -6.096 3.302)
+		(end -6.096 -4.318)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc49e922-a940-4131-a9b4-a92a854c313d")
+	)
+	(fp_line
+		(start -3.048 6.35)
+		(end -6.096 3.302)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "688d7877-99ec-4398-a08c-173993e9978a")
+	)
+	(fp_line
+		(start 3.048 6.35)
+		(end -3.048 6.35)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2328643e-d97b-42af-9b9d-bfec5533c482")
+	)
+	(fp_line
+		(start 6.096 -4.318)
+		(end 6.096 3.302)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92f310f4-dd4e-4e7b-b59f-105d7cf99bcc")
+	)
+	(fp_line
+		(start 6.096 3.302)
+		(end 3.048 6.35)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5079e33-1789-4105-80fe-8f090a2f117a")
+	)
+	(fp_arc
+		(start -6.096 -4.318)
+		(mid -5.16342 -5.299446)
+		(end -3.81 -5.334)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2466c0aa-bd6f-4776-a91a-8d149790c35b")
+	)
+	(fp_arc
+		(start 3.81 -5.334)
+		(mid 0 -3.755846)
+		(end -3.81 -5.334)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cebde5f-3b4f-4fe6-858d-4d3f07e095c1")
+	)
+	(fp_arc
+		(start 3.81 -5.334)
+		(mid 5.16342 -5.299446)
+		(end 6.096 -4.318)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "549d256e-dde7-4bbd-bd74-316d9830ca1b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f7abbc71-d1e6-433c-ad4b-e25f40578bf1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "19aad94c-ee16-451c-bdbc-564781b5b1e7")
+	)
+	(pad "GND" smd roundrect
+		(at 0 0)
+		(size 8 8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.5)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "2427ee45-2eaa-41e5-b8ac-12f39660c87e")
+	)
+	(pad "PWR@1" smd rect
+		(at -7.874 0)
+		(size 3.175 3.175)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "ce10258d-d692-4fca-9cec-451be79d382e")
+	)
+	(pad "PWR@2" smd rect
+		(at 7.874 0)
+		(size 3.175 3.175)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "a71c3c85-09d5-4d2b-b749-ebf2a68653d8")
+	)
+)

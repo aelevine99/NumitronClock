@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.016,
+          "height": 1.8796,
+          "width": 1.8796
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -179,7 +179,8 @@
       ],
       "track_widths": [
         0.0,
-        0.5
+        0.5,
+        0.75
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -215,6 +216,10 @@
         {
           "diameter": 0.75,
           "drill": 0.5
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.75
         }
       ],
       "zones_allow_external_fillets": false

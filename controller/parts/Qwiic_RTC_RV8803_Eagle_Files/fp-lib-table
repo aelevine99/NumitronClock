@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Qwiic_RTC_RV8803")(type "KiCad")(uri "$(KIPRJMOD)/Qwiic_RTC_RV8803.pretty")(options "")(descr ""))
+)
