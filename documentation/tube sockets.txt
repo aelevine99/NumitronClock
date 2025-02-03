@@ -1,3 +1,0 @@
-Single Socket for IN-8, IN-2, IN-12, IN-18, IN-4 Nixie Tubes
-
-https://www.pvelectronics.co.uk/index.php?main_page=product_info&cPath=4_11&products_id=28
