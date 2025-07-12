@@ -1086,7 +1086,7 @@
 				)
 			)
 		)
-		(symbol "PCM_arduino-library:Arduino_Nano_Socket"
+		(symbol "PCM_arduino-library:Arduino_Nano_RP2040_Connect_Socket"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1101,7 +1101,7 @@
 					)
 				)
 			)
-			(property "Value" "Arduino_Nano_Socket"
+			(property "Value" "Arduino_Nano_RP2040_Connect_Socket"
 				(at 0 29.21 0)
 				(effects
 					(font
@@ -1109,7 +1109,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_arduino-library:Arduino_Nano_Socket"
+			(property "Footprint" "PCM_arduino-library:Arduino_Nano_Every_Socket"
 				(at 0 -34.29 0)
 				(effects
 					(font
@@ -1118,7 +1118,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://docs.arduino.cc/hardware/nano"
+			(property "Datasheet" "https://docs.arduino.cc/hardware/nano-rp2040-connect"
 				(at 0 -30.48 0)
 				(effects
 					(font
@@ -1127,7 +1127,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Socket for Arduino Nano"
+			(property "Description" "Socket for Arduino Nano RP2040 Connect"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1145,7 +1145,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Arduino_Nano_Socket"
+			(property "ki_fp_filters" "Arduino_Nano_Every_Socket"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1154,7 +1154,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Arduino_Nano_Socket_0_0"
+			(symbol "Arduino_Nano_RP2040_Connect_Socket_0_0"
 				(rectangle
 					(start -17.78 26.67)
 					(end 17.78 -26.67)
@@ -1291,7 +1291,7 @@
 					)
 				)
 			)
-			(symbol "Arduino_Nano_Socket_0_1"
+			(symbol "Arduino_Nano_RP2040_Connect_Socket_0_1"
 				(polyline
 					(pts
 						(xy -13.97 12.7) (xy -2.54 12.7) (xy -2.54 7.62)
@@ -1330,7 +1330,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 22.86) (xy 5.08 22.86) (xy 5.08 12.7)
+						(xy 13.97 22.86) (xy 5.08 22.86) (xy 5.08 12.7)
 					)
 					(stroke
 						(width 0)
@@ -1342,7 +1342,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -17.78) (xy 8.89 -17.78) (xy 8.89 -20.32) (xy 10.16 -20.32)
+						(xy 10.16 -17.78) (xy 8.89 -17.78) (xy 8.89 -20.32) (xy 12.7 -20.32)
 					)
 					(stroke
 						(width 0)
@@ -1353,7 +1353,7 @@
 					)
 				)
 			)
-			(symbol "Arduino_Nano_Socket_1_0"
+			(symbol "Arduino_Nano_RP2040_Connect_Socket_1_0"
 				(text "GPIO"
 					(at 5.08 8.89 900)
 					(effects
@@ -1363,8 +1363,8 @@
 					)
 				)
 			)
-			(symbol "Arduino_Nano_Socket_1_1"
-				(pin power_out line
+			(symbol "Arduino_Nano_RP2040_Connect_Socket_1_1"
+				(pin power_in line
 					(at -25.4 -17.78 0)
 					(length 7.62)
 					(name "3.3V"
@@ -1382,7 +1382,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin no_connect non_logic
 					(at -25.4 -15.24 0)
 					(length 7.62)
 					(name "5V"
@@ -1544,7 +1544,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect non_logic
 					(at -25.4 -7.62 0)
 					(length 7.62)
 					(name "AREF"
@@ -1673,7 +1673,7 @@
 				(pin bidirectional line
 					(at 25.4 22.86 180)
 					(length 7.62)
-					(name "D2_INT0"
+					(name "D2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1691,7 +1691,7 @@
 				(pin bidirectional line
 					(at 25.4 20.32 180)
 					(length 7.62)
-					(name "D3_INT1"
+					(name "D3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1868,10 +1868,10 @@
 						)
 					)
 				)
-				(pin open_collector input_low
+				(pin bidirectional line
 					(at 25.4 -20.32 180)
 					(length 7.62)
-					(name "RESET"
+					(name "REC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2609,16 +2609,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 142.24) (xy 228.6 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34016c5b-641a-4eee-b91e-8270238e95ef")
-	)
-	(wire
-		(pts
 			(xy 139.7 71.12) (xy 139.7 68.58)
 		)
 		(stroke
@@ -2799,16 +2789,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 139.7) (xy 245.11 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96d1434d-47d2-4948-aebd-ed2471f96960")
-	)
-	(wire
-		(pts
 			(xy 63.5 50.8) (xy 63.5 48.26)
 		)
 		(stroke
@@ -2909,16 +2889,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 147.32) (xy 228.6 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5680232-b3f7-49b2-9d93-8efdd690cd49")
-	)
-	(wire
-		(pts
 			(xy 205.74 43.18) (xy 203.2 43.18)
 		)
 		(stroke
@@ -2976,26 +2946,6 @@
 			(type default)
 		)
 		(uuid "e3bb5479-1937-49f2-b470-c164a5e59725")
-	)
-	(wire
-		(pts
-			(xy 241.3 138.43) (xy 241.3 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e49250bd-23ea-4ed7-b686-e5c1b571c140")
-	)
-	(wire
-		(pts
-			(xy 232.41 144.78) (xy 228.6 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4e76956-7a21-414c-8a65-b4d874f96a0d")
 	)
 	(wire
 		(pts
@@ -3109,17 +3059,6 @@
 		)
 		(uuid "2246432e-1193-4874-b4ef-e5f4b4321029")
 	)
-	(text "GPS"
-		(exclude_from_sim no)
-		(at 215.646 165.354 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "429ea5f9-d09b-4220-ad79-7ca5268d18dd")
-	)
 	(text "DIMMING CIRCUIT"
 		(exclude_from_sim no)
 		(at 114.046 165.354 0)
@@ -3142,7 +3081,7 @@
 		)
 		(uuid "b90353c2-1b42-472d-b01c-8b2d4f0413e6")
 	)
-	(text "RTC"
+	(text "I2C"
 		(exclude_from_sim no)
 		(at 152.146 165.354 0)
 		(effects
@@ -3193,28 +3132,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 232.41 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14c08bea-f32c-4a44-bbea-a2dfbbb540b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.9028 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3606,28 +3523,6 @@
 		(uuid "b58170bc-a314-4f84-a02e-d41a2b947842")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.1733 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 232.41 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d29d2006-a501-4e0d-83ab-e6196b393f35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.9633 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,82 +3933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 223.52 142.24 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c03711e-e590-47b8-b9b5-223a2aace7bd")
-		(property "Reference" "J4"
-			(at 220.98 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GPS"
-			(at 220.98 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 223.52 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 223.52 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "46fe7fc2-acc7-4048-8137-2e8c91a61c84")
-		)
-		(pin "1"
-			(uuid "e69e13e5-6bef-4e51-9dd0-a4bebe34440b")
-		)
-		(pin "2"
-			(uuid "fbe69c07-e669-42ca-af59-d7e2fa3317a4")
-		)
-		(pin "4"
-			(uuid "d28a4ed4-a050-49ea-924f-2b781931f213")
-		)
-		(instances
-			(project ""
-				(path "/2c306902-e3d6-48da-bc5d-6b9ac6a8deef"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 63.5 31.75 0)
 		(unit 1)
@@ -4323,72 +4142,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 241.3 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "440277cf-3118-4828-a433-c3f113a3be31")
-		(property "Reference" "#PWR014"
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 241.3 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 241.3 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "efccd986-a63f-4b58-a37d-98f7b3d57594")
-		)
-		(instances
-			(project "numitroncontrol"
-				(path "/2c306902-e3d6-48da-bc5d-6b9ac6a8deef"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 177.8 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4448,72 +4201,6 @@
 			(project "numitroncontrol"
 				(path "/2c306902-e3d6-48da-bc5d-6b9ac6a8deef"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 245.11 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e637b38-88cb-4631-8407-84c871fd6664")
-		(property "Reference" "#PWR016"
-			(at 245.11 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61a1d5f7-3b26-4f02-a5ef-5036edf9eed9")
-		)
-		(instances
-			(project "numitroncontrol"
-				(path "/2c306902-e3d6-48da-bc5d-6b9ac6a8deef"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4585,158 +4272,6 @@
 			(project ""
 				(path "/2c306902-e3d6-48da-bc5d-6b9ac6a8deef"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_arduino-library:Arduino_Nano_Socket")
-		(at 177.8 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80fc9fa4-392b-4d83-84ae-21b951e77c38")
-		(property "Reference" "A1"
-			(at 177.8 16.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Arduino_Nano_Socket"
-			(at 177.8 19.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "PCM_arduino-library:Arduino_Nano_Socket"
-			(at 177.8 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.arduino.cc/hardware/nano"
-			(at 177.8 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Socket for Arduino Nano"
-			(at 177.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3V3"
-			(uuid "fefcc4c1-44be-4cd2-a29b-6dc3a330a809")
-		)
-		(pin "D12"
-			(uuid "f4a3a97b-3854-4001-be7f-d94356a8c432")
-		)
-		(pin "GND2"
-			(uuid "c9ced2e5-7950-4d60-a96f-e0cbb8dc194a")
-		)
-		(pin "A2"
-			(uuid "b4ba8f11-c21d-4703-9669-b4cb9eb2739a")
-		)
-		(pin "AREF"
-			(uuid "61d3c7eb-2f2d-46b9-880b-783d700763c0")
-		)
-		(pin "D0"
-			(uuid "de994fb7-f5ac-4f48-93ed-bed91acb1b2c")
-		)
-		(pin "A6"
-			(uuid "6e3e9702-22a5-4723-85af-ffff1d1f3322")
-		)
-		(pin "D7"
-			(uuid "af8d79a3-e560-4d88-b051-dda9afbc9311")
-		)
-		(pin "RST1"
-			(uuid "e854b3d3-8c46-4586-9f8e-0e059faf772e")
-		)
-		(pin "A0"
-			(uuid "8bba4630-79c5-4444-a863-fd714322d804")
-		)
-		(pin "A4"
-			(uuid "f07386ab-fd99-4a0f-8152-339b48ad30e1")
-		)
-		(pin "5V"
-			(uuid "38c92932-7621-4b69-beda-e69d844dba78")
-		)
-		(pin "D11"
-			(uuid "d238180b-5c6a-48fd-ae67-101e40487de4")
-		)
-		(pin "D10"
-			(uuid "31a993b9-e6ea-4c33-9cbf-335813139bbd")
-		)
-		(pin "D1"
-			(uuid "8b00669f-1351-4170-a69e-da5705d99b1a")
-		)
-		(pin "D4"
-			(uuid "9ca8c340-063f-4b83-89d2-27f81dc57bde")
-		)
-		(pin "D6"
-			(uuid "e54d6d57-3fe3-43a5-8540-0004cd689a92")
-		)
-		(pin "D5"
-			(uuid "28454a72-b517-41a1-8140-125f68826213")
-		)
-		(pin "D9"
-			(uuid "f1a24972-57c2-4c2e-8324-00ffaee4104b")
-		)
-		(pin "D2"
-			(uuid "14ce4d7d-d009-4969-a3c6-1c7d29a6be3e")
-		)
-		(pin "D13"
-			(uuid "07fa4089-623b-411d-8778-d40ea8f0fdd6")
-		)
-		(pin "D3"
-			(uuid "57f6aeaf-9003-4e54-b2e0-5c6d34826e28")
-		)
-		(pin "A7"
-			(uuid "72a5b72c-0c70-4fc7-ad90-4d5c422ac53a")
-		)
-		(pin "GND1"
-			(uuid "9d43e193-0ee0-43fd-889c-575c8e6eb9e3")
-		)
-		(pin "VIN"
-			(uuid "5718402b-aa9a-4b94-a927-2af581b0724d")
-		)
-		(pin "A3"
-			(uuid "9d153206-214d-4016-8497-51f0e2fa7832")
-		)
-		(pin "A5"
-			(uuid "ea9ee2a2-7642-4803-8785-3171434c38a4")
-		)
-		(pin "D8"
-			(uuid "b76b23aa-02f4-4494-b30a-2e296348a6be")
-		)
-		(pin "RST2"
-			(uuid "508d0fdc-f588-446f-a2c6-279c504a64d4")
-		)
-		(pin "A1"
-			(uuid "3840a8ea-b58f-490d-929d-28a2f6a841f8")
-		)
-		(instances
-			(project ""
-				(path "/2c306902-e3d6-48da-bc5d-6b9ac6a8deef"
-					(reference "A1")
 					(unit 1)
 				)
 			)
@@ -5134,6 +4669,158 @@
 			(project ""
 				(path "/2c306902-e3d6-48da-bc5d-6b9ac6a8deef"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_arduino-library:Arduino_Nano_RP2040_Connect_Socket")
+		(at 177.8 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b03e2ca7-1566-4a84-9b25-24bb0a16b9f3")
+		(property "Reference" "A1"
+			(at 177.8 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Arduino_Nano_RP2040_Connect_Socket"
+			(at 177.8 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "PCM_arduino-library:Arduino_Nano_Every_Socket"
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.arduino.cc/hardware/nano-rp2040-connect"
+			(at 177.8 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket for Arduino Nano RP2040 Connect"
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A4"
+			(uuid "588662fa-6cdb-467f-9563-7eff907835e6")
+		)
+		(pin "D2"
+			(uuid "36235dab-7c78-4437-8c99-2b03bf50422c")
+		)
+		(pin "D4"
+			(uuid "f54a375c-32fe-4cd3-8584-c9bf6e0d6195")
+		)
+		(pin "D6"
+			(uuid "82d6c39f-dc70-440b-9953-efe6192e3f9e")
+		)
+		(pin "D8"
+			(uuid "8e056046-ab62-44e6-8bbc-1598acc688f2")
+		)
+		(pin "A6"
+			(uuid "f9aa97d1-3901-4c88-aa41-4296ad0618f4")
+		)
+		(pin "VIN"
+			(uuid "9de263b9-140c-4024-847c-e69f04dfb811")
+		)
+		(pin "A7"
+			(uuid "5f90c880-3bac-406d-880e-8aec1f9e2c11")
+		)
+		(pin "D9"
+			(uuid "f3164d0b-8de3-45f1-a875-7c6473fbac3b")
+		)
+		(pin "AREF"
+			(uuid "72e67075-7c55-4b25-865c-9b9fd2494ce6")
+		)
+		(pin "A1"
+			(uuid "fa73ef90-6e9d-401a-8a31-c62a26db3580")
+		)
+		(pin "5V"
+			(uuid "76e0dfbf-4eee-4921-831f-9e99375c6073")
+		)
+		(pin "D1"
+			(uuid "6df12f9c-8804-4ef3-8b93-bfd797fde539")
+		)
+		(pin "3V3"
+			(uuid "43fa83f0-cb2b-430e-96d5-0da833958088")
+		)
+		(pin "A5"
+			(uuid "15f6e8fc-cef0-4496-a746-90b57d2cb099")
+		)
+		(pin "D0"
+			(uuid "dd708be9-fab9-4793-b56e-885033c2f488")
+		)
+		(pin "D10"
+			(uuid "d07d7c98-5af6-4596-a373-ef28c2d345b1")
+		)
+		(pin "D11"
+			(uuid "82832739-ae33-406d-8fa2-7faa84169a57")
+		)
+		(pin "A0"
+			(uuid "be93d6b9-51b4-4889-a3a8-6035fd7a13ad")
+		)
+		(pin "A2"
+			(uuid "5269345f-e38d-41a2-993b-9934b713c899")
+		)
+		(pin "D12"
+			(uuid "d03d5081-c09a-430d-951a-6527d99beae3")
+		)
+		(pin "A3"
+			(uuid "ab6b8a02-12e0-4622-bb7d-39d4503c9398")
+		)
+		(pin "D13"
+			(uuid "ab23112f-493e-49e8-9288-b8dc6a428c1b")
+		)
+		(pin "D3"
+			(uuid "e46d6377-6a2d-4e96-aa56-11107d0cafd4")
+		)
+		(pin "D5"
+			(uuid "6a8fb8a0-f9a5-42f3-af41-62b6d657ce5a")
+		)
+		(pin "D7"
+			(uuid "fc4dbd01-e2f5-4e97-a14f-c97504101d6e")
+		)
+		(pin "GND1"
+			(uuid "fbdf952f-1112-4a36-b228-c240b43d9025")
+		)
+		(pin "GND2"
+			(uuid "e85ef5fe-61f8-4229-adf4-216d615ce543")
+		)
+		(pin "RST1"
+			(uuid "05fc5435-f626-4719-8775-8c34fb136cde")
+		)
+		(pin "RST2"
+			(uuid "1d64ce67-95c8-4b26-84ed-66750d9f39e0")
+		)
+		(instances
+			(project ""
+				(path "/2c306902-e3d6-48da-bc5d-6b9ac6a8deef"
+					(reference "A1")
 					(unit 1)
 				)
 			)
