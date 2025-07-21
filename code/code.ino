@@ -5,23 +5,21 @@ Al Levine
 
 */
 
-// ~~~~~~~~~~ LIBRARY IMPORTS ~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~ LIBRARY IMPORTS ~~~~~~~~~~~~~~~~~~~~
 #include <Wire.h>  // i2c library				https://docs.arduino.cc/language-reference/en/functions/communication/wire/
 
-// ~~~~~~~~~~ HARDWARE PIN DEFINITIONS ~~~~~~~~~~
-#define SCL A5  // i2c SCL
-#define SDA A4  // i2c SDA
-#define DIN 5   // HV8512 serial data input
-#define BLK 6   // HV5812 blanking input
-#define CLK 7   // HV5812 data shift register clock input
-#define STR 8   // HV5812 output enable input
-#define DIM 9   // Dimming PWM
-#define POT A7  // Potentiometer input
+// ~~~~~~~~~~~~~~~~~~~~ HARDWARE PIN DEFINITIONS ~~~~~~~~~~~~~~~~~~~~
+// use const instead of #define, best practice according to arduino documentation
+const SCL A5  // i2c SCL
+const SDA A4  // i2c SDA
+const DIN 5   // HV8512 serial data input
+const BLK 6   // HV5812 blanking input
+const CLK 7   // HV5812 data shift register clock input
+const STR 8   // HV5812 output enable input
+const DIM 9   // Dimming PWM
+const POT A7  // Potentiometer input
 
-//Bit array for 2x HV5812 chips
-boolean nixieDisplayArray[40];
-
-//Assignment of tube cathodes to HV8512 driver pins
+// Assignment of tube cathodes to HV8512 driver pins
 /*
 Left digit:					Right digit:
 Tube	HV5812WG-G			Tube	HV5812WG-G
@@ -35,19 +33,35 @@ Tube	HV5812WG-G			Tube	HV5812WG-G
 */
 
 //	cathode	 		01, 05, 06, 07, 08, 09, 10
-int tube1[] = { 11, 12, 13, 14, 15, 16, 17 };  // assuming hvout number and not actual pin????
-int tube2[] = { 7, 6, 5, 4, 3, 2, 1 };
-int tube3[] = { 31, 32, 33, 34, 35, 36, 37 };  // add 20 for tube 1 second chip
-int tube4[] = { 17, 16, 15, 14, 13, 12, 11 };  // add 20 for tube 2 second chip
+int tube1[7] = { 11, 12, 13, 14, 15, 16, 17 };  // assuming hvout number and not actual pin????
+int tube2[7] = { 7, 6, 5, 4, 3, 2, 1 };
+int tube3[7] = { 31, 32, 33, 34, 35, 36, 37 };  // add 20 for tube 1 second chip
+int tube4[7] = { 17, 16, 15, 14, 13, 12, 11 };  // add 20 for tube 2 second chip
 
-int digit1, digit2, digit3, digit4;
+// ~~~~~~~~~~~~~~~~~~~~ MISC SETUP ~~~~~~~~~~~~~~~~~~~~
+
+boolean nixieDisplayArray[40]; // Bit array for 2x HV5812 chips
+int digits[4]={0,0,0,0}; // array to store digits
+
+// Font table
+//	tube pin   1,5,6,7,8,9,10
+int num0[] = {1,1,1,1,1,0,1};
+int num1[] = {0,0,1,1,0,0,0};
+int num2[] = {1,1,0,1,1,0,0};
+int num3[] = {0,1,1,1,1,1,0};
+int num4[] = {0,0,1,1,0,1,1};
+int num5[] = {0,1,1,0,1,1,1};
+int num6[] = {1,1,1,0,1,1,1};
+int num7[] = {0,0,1,1,1,0,0};
+int num8[] = {1,1,1,1,1,1,1};
+int num9[] = {0,1,1,1,1,1,1};
 
 
-// ~~~~~~~~~~ SETUP ~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~ SETUP FUNCTION ~~~~~~~~~~~~~~~~~~~~
 void setup() {
 	Serial.begin(9600);  //intialize serial output
 
-	//initialize output pins
+	// initialize output pins
 	pinMode(DIN, OUTPUT);
 	digitalWrite(DIN, LOW);
 	pinMode(BLK, OUTPUT);
@@ -60,6 +74,23 @@ void setup() {
 	digitalWrite(DIM, LOW);
 }
 
-// ~~~~~~~~~~ LOOP ~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~ LOOP FUNCTION ~~~~~~~~~~~~~~~~~~~~
 void loop() {
+}
+
+// ~~~~~~~~~~~~~~~~~~~~ OTHER FUNCTIONS ~~~~~~~~~~~~~~~~~~~~
+int splitNum(int num){ // split 4 digit integer into array of digits
+	int array{4};
+	array[0] = (number / 1) % 10;
+    array[0] = (number / 10) % 10;
+    array[0] = (number / 100) % 10;
+    array[0] = (number / 1000) % 10;
+	return array[];
+
+int printNum(int buffer, int tube, int num) { //writes font table into display buffer, one tube at a time
+	for(int i=0; i<7; i++){
+		int pos = tube[i];  // get pin number from tube pin assignment array
+		buffer[pos] = num[i]; // write boolean value from font table to relevant pin in display buffer
+	}
+	return buffer;
 }
