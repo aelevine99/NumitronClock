@@ -12,7 +12,7 @@ Al Levine
 // use const instead of #define, best practice according to arduino documentation
 const SCL A5  // i2c SCL
 const SDA A4  // i2c SDA
-const DIN 5   // HV8512 serial data input
+const DIN 4   // HV8512 serial data input for 1st chip
 const BLK 6   // HV5812 blanking input
 const CLK 7   // HV5812 data shift register clock input
 const STR 8   // HV5812 output enable input
