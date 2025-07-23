@@ -1,0 +1,16 @@
+### Footprint positions - created on 2025-07-23T11:09:42-0500 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                                 Package                                                 PosX       PosY       Rot  Side
+A1        Arduino_Nano_RP2040_Connect_Socket  Arduino_Nano_Every_Socket                           127.0000  -105.9720  180.0000  top
+J0        Screw_Terminal_01x02                TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal   114.3000   -92.7100  -90.0000  top
+J1        Conn_01x06                          61200821621                                         126.8800  -155.8770    0.0000  top
+J2        Conn_01x06                          61200821621                                         126.8800  -167.2820    0.0000  top
+J3        I2C                                 PinHeader_1x04_P2.54mm_Vertical                     114.3000  -122.5550    0.0000  top
+J4        Screw_Terminal_01x03                PinHeader_1x03_P2.54mm_Vertical                     114.3000  -144.7800  180.0000  top
+J5        Conn_01x03_Pin                      PinHeader_1x03_P2.54mm_Vertical                     114.3000  -158.1150  180.0000  top
+R1        390_Ω                              R_0805_2012Metric_Pad1.20x1.40mm_HandSolder         133.3900   -99.7500   90.0000  top
+R2        3.3_kΩ                             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder         138.3900   -99.7500  -90.0000  top
+U1        LM317_TO-220                        TO-220-3_Vertical                                   133.3500   -95.2500    0.0000  top
+## End

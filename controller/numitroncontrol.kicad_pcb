@@ -141,9 +141,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "production/")
 		)
 	)
 	(net 0 "")
@@ -200,6 +200,7 @@
 		(property "Value" "Conn_01x06"
 			(at -5.22 3.81 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "23569389-e572-43c6-8f7d-e338829f0648")
 			(effects
 				(font
@@ -836,7 +837,7 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U1"
-			(at 2.54 -4.27 0)
+			(at -1.905 -4.27 0)
 			(layer "F.SilkS")
 			(uuid "70843bb4-c873-41be-bb1a-8d81ef0615a5")
 			(effects
@@ -847,7 +848,7 @@
 			)
 		)
 		(property "Value" "LM317_TO-220"
-			(at 2.54 2.5 0)
+			(at 2.54 -2.54 0)
 			(layer "F.Fab")
 			(uuid "5de9476e-f630-4ba3-a8ad-c641d21e7952")
 			(effects
@@ -1069,7 +1070,7 @@
 			(uuid "c7f7270c-5103-478c-b495-44f7c9ac42ac")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -4.27 0)
+			(at -1.905 -4.27 0)
 			(layer "F.Fab")
 			(uuid "a91f0902-3bb7-433a-bc41-53b0bc928341")
 			(effects
@@ -1132,7 +1133,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 0)
+			(at 0 -2.54 0)
 			(layer "F.SilkS")
 			(uuid "50f0df8a-6b1d-4868-9371-4b3cff6c1a20")
 			(effects
@@ -1143,8 +1144,9 @@
 			)
 		)
 		(property "Value" "I2C"
-			(at 0 9.95 0)
+			(at 2.54 3.81 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "72a0be44-9bcb-46b4-8814-7858786443a7")
 			(effects
 				(font
@@ -1180,7 +1182,6 @@
 			)
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
-		(path "/999a1397-7774-4f2d-b3f0-f50c5c2f12a8")
 		(sheetname "/")
 		(sheetfile "numitroncontrol.kicad_sch")
 		(attr through_hole)
@@ -1335,7 +1336,7 @@
 			(uuid "4beec661-69b3-4c50-8ba6-a426d1efe3bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 90)
+			(at 0 -2.54 180)
 			(layer "F.Fab")
 			(uuid "786e8cbf-8786-4e8c-8a14-db6a679224fd")
 			(effects
@@ -1412,7 +1413,7 @@
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "39efed0f-b209-479e-bd16-d1e727d6343b")
+			(uuid "947e901b-4e81-4202-8ea0-b227592ae235")
 			(effects
 				(font
 					(size 1 1)
@@ -1421,9 +1422,9 @@
 			)
 		)
 		(property "Value" "MountingHole_3.2mm_M3_Pad"
-			(at 0 10.55 0)
+			(at 0.12 4.618 0)
 			(layer "F.Fab")
-			(uuid "967c3bd9-cc7c-4314-ae1c-7f35d1cd6596")
+			(uuid "8669b4b2-b245-4193-9ed5-c4bdda8f6415")
 			(effects
 				(font
 					(size 1 1)
@@ -1436,7 +1437,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71e0fbb6-ea6c-477a-9121-62eb7f12674f")
+			(uuid "f8683106-15e2-40f3-8055-3c6eb0c6ab91")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1450,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "823d26d4-bb4b-42e2-a268-15be458e23da")
+			(uuid "64c0cb79-72e9-4927-929e-c407b6cb670a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1512,7 @@
 		(descr "Terminal Block TE 282834-2, 2 pins, pitch 2.54mm, size 5.54x6.5mm, drill diameter 1.1mm, pad diameter 2.1mm, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity")
 		(tags "THT Terminal Block TE 282834-2 pitch 2.54mm size 5.54x6.5mm drill 1.1mm pad 2.1mm")
 		(property "Reference" "J0"
-			(at 5.08 -2.54 0)
+			(at -2.54 2.54 0)
 			(layer "F.SilkS")
 			(uuid "3a80ab7a-c6f5-4a5c-b0e3-160e171788a7")
 			(effects
@@ -1522,8 +1523,9 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 1.27 4.37 90)
+			(at 5.08 0 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "25400c80-ec5a-49a5-a185-adcd9cb84559")
 			(effects
 				(font
@@ -1816,7 +1818,7 @@
 			(uuid "25e0bf85-e4f1-4169-b708-d5696f5d36db")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 2 90)
+			(at -2.54 2.54 180)
 			(layer "F.Fab")
 			(uuid "019852ef-83f9-42c7-a274-4ece5579188a")
 			(effects
@@ -1882,7 +1884,7 @@
 		(property "Reference" "A1"
 			(at 7.88 0.895 0)
 			(layer "F.SilkS")
-			(uuid "868a265b-3be6-40e7-910e-4be886d87952")
+			(uuid "255fd730-f5a8-482d-b1c0-0995e059563c")
 			(effects
 				(font
 					(size 1 1)
@@ -1892,8 +1894,8 @@
 		)
 		(property "Value" "Arduino_Nano_RP2040_Connect_Socket"
 			(at 0 -21.082 90)
-			(layer "F.Fab")
-			(uuid "bbdfebee-bd00-4859-a62e-b6df9cc7fae0")
+			(layer "F.SilkS")
+			(uuid "40eb8c43-12bb-42c1-b6d4-80eb4eb07c24")
 			(effects
 				(font
 					(size 1 1)
@@ -1905,7 +1907,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be1f2fbe-2406-4be9-b199-a01671095d3b")
+			(uuid "93830f80-03d1-4d24-81f6-6bfc1bd6ac95")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +1919,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0ccf2b0-5418-452d-8e93-4f1b250845a9")
+			(uuid "f040b721-ca34-4a2b-ba98-261f6af86251")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2807,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.65 90)
+			(at 0 1.865 90)
 			(layer "F.SilkS")
 			(uuid "dc4e80ce-8bc5-4c77-ae04-9b5fe195897e")
 			(effects
@@ -2816,7 +2818,7 @@
 			)
 		)
 		(property "Value" "3.3 kΩ"
-			(at 0 1.65 90)
+			(at 2.485 -0.675 180)
 			(layer "F.Fab")
 			(uuid "9ba122f0-f6ad-4ed5-a506-d4d27a94f3de")
 			(effects
@@ -3017,7 +3019,7 @@
 			)
 		)
 		(property "Value" "390 Ω"
-			(at 0 1.65 90)
+			(at -2.485 -0.675 180)
 			(layer "F.Fab")
 			(uuid "6c230742-a905-420f-8af6-2c78502208ef")
 			(effects
@@ -3302,14 +3304,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "905e33f6-6de6-4f3d-a738-9b1fdb4b7720")
 		(at 114.3 158.115 180)
-		(descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
-		(tags "Through hole socket strip THT 1x03 2.54mm single row")
+		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 7.62 0)
+			(at 0 7.62 180)
 			(layer "F.SilkS")
 			(uuid "e4d25aae-cefc-4921-9b76-380aa350f0a0")
 			(effects
@@ -3320,8 +3322,9 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 0 7.85 0)
+			(at -2.54 2.54 270)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "68fb123b-8bd4-4884-8f2d-c3195a34b0e3")
 			(effects
 				(font
@@ -3369,27 +3372,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "475bc4ca-3cfa-4653-b5a6-fc592bff740f")
-		)
-		(fp_line
-			(start 1.33 -1.33)
-			(end 1.33 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "da0d74b3-2428-4538-a1aa-72a840c498a7")
-		)
-		(fp_line
-			(start 0 -1.33)
-			(end 1.33 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7b3f2ade-9ad9-4d0e-b910-5ad0a0267da3")
+			(uuid "a400cdc9-daae-4d3d-b2c6-6422feaf8cb0")
 		)
 		(fp_line
 			(start -1.33 6.41)
@@ -3399,7 +3382,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a6427485-6eaf-494c-887c-32e6aad93a97")
+			(uuid "d9f0d431-883f-4815-b121-7045a7f41ccd")
 		)
 		(fp_line
 			(start -1.33 1.27)
@@ -3409,7 +3392,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d8a00a60-1268-41a2-9da0-9bf72cc91bda")
+			(uuid "4b8ed98e-f4e7-4a3d-a921-d3bd5ef50d71")
 		)
 		(fp_line
 			(start -1.33 1.27)
@@ -3419,47 +3402,67 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ed601832-9b3a-4fba-9a4c-dde205f2c915")
+			(uuid "226dd9f1-99bc-451d-a6b4-f7647bf10217")
 		)
 		(fp_line
-			(start 1.75 6.85)
-			(end -1.8 6.85)
+			(start -1.33 0)
+			(end -1.33 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "709f368c-66d8-49bf-a405-8fdd3be35c09")
+		)
+		(fp_line
+			(start -1.33 -1.33)
+			(end 0 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a4b93b1d-c06a-494f-8cb7-fcd3e6666c9e")
+		)
+		(fp_line
+			(start 1.8 6.85)
+			(end 1.8 -1.8)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b499b20c-ac8f-4fd5-ba7a-9b2c15b39c10")
+			(uuid "46d3725d-4bf1-4ecf-892d-0f3d16daf5b4")
 		)
 		(fp_line
-			(start 1.75 -1.8)
-			(end 1.75 6.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b971fa49-b5e9-47f1-80a6-6c1634817f6c")
-		)
-		(fp_line
-			(start -1.8 6.85)
+			(start 1.8 -1.8)
 			(end -1.8 -1.8)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "982d5936-e432-4ee6-98bf-6aa9e6160072")
+			(uuid "7b6e2420-954c-4a48-9e83-2185a909a5e7")
 		)
 		(fp_line
-			(start -1.8 -1.8)
-			(end 1.75 -1.8)
+			(start -1.8 6.85)
+			(end 1.8 6.85)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "938d0e8c-659f-4d75-a863-b574ac471d35")
+			(uuid "440cf9f1-38be-4006-8486-9297b593b5d0")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 6.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bd684df2-8c65-4ff8-ba23-df8ae78730be")
 		)
 		(fp_line
 			(start 1.27 6.35)
@@ -3469,50 +3472,50 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "98a0337b-1d2b-41e0-9b12-7638ca5a673b")
+			(uuid "206a8f6a-ffa1-4499-b424-9d3879ec90ab")
 		)
 		(fp_line
-			(start 1.27 -0.635)
+			(start 1.27 -1.27)
 			(end 1.27 6.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "75caca92-e226-4975-ae8d-612f22c6b008")
+			(uuid "e5ef4be6-f3cc-40da-945b-4c70210c194c")
 		)
 		(fp_line
-			(start 0.635 -1.27)
-			(end 1.27 -0.635)
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9f85ab3d-3efc-4ac3-a6c6-2215f429e760")
+			(uuid "e4d8dd91-fd57-4125-b132-6e3a354d7c1f")
 		)
 		(fp_line
 			(start -1.27 6.35)
-			(end -1.27 -1.27)
+			(end -1.27 -0.635)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "49f80e16-a217-4499-8825-9d4f6ca4184f")
+			(uuid "3023282a-582f-4341-a2d6-d0ac696479bc")
 		)
 		(fp_line
-			(start -1.27 -1.27)
-			(end 0.635 -1.27)
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fa1d1c62-f2e5-446d-bc4c-1f2e859e3de2")
+			(uuid "2bb35d88-afcb-428d-a3a5-a8d5c2a380c2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 90)
+			(at 0 7.62 0)
 			(layer "F.Fab")
 			(uuid "c1ca26fb-df49-4a89-95c0-6bd5d20b36c0")
 			(effects
@@ -3556,7 +3559,7 @@
 			(uuid "cd9e1c13-ad2f-4291-8638-f6ad690bc2aa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3586,8 +3589,9 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 0 7.41 0)
+			(at -2.54 2.54 270)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5fabe98a-57d8-499d-b303-f490d94cd62e")
 			(effects
 				(font
@@ -3623,7 +3627,6 @@
 			)
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
-		(path "/a874a57f-3fd6-4169-97ee-29b46cfaef06")
 		(sheetname "/")
 		(sheetfile "numitroncontrol.kicad_sch")
 		(attr through_hole)
@@ -3778,7 +3781,7 @@
 			(uuid "aed885b6-d700-460f-b803-2f17e8b2866a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 90)
+			(at 0 7.62 180)
 			(layer "F.Fab")
 			(uuid "2a0c2eff-16de-44d9-a55c-c1615b4b09f0")
 			(effects
@@ -3853,6 +3856,7 @@
 		(property "Value" "Conn_01x06"
 			(at -5.22 3.835 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fa76a234-d304-44eb-8a3a-d2794f4d716a")
 			(effects
 				(font
@@ -4705,6 +4709,19 @@
 			(justify left)
 		)
 	)
+	(gr_text "BREAKOUT 1"
+		(at 135.89 150.495 0)
+		(layer "F.SilkS")
+		(uuid "5b5caf78-9f39-4869-a854-b568629c8ada")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "CONTROL"
 		(at 111.76 151.13 270)
 		(layer "F.SilkS")
@@ -4718,6 +4735,19 @@
 			(justify left)
 		)
 	)
+	(gr_text "VIN"
+		(at 118.11 90.17 0)
+		(layer "F.SilkS")
+		(uuid "e139269e-c9e7-4fe9-8df7-634c3ec7ab3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "I2C"
 		(at 111.76 120.65 270)
 		(layer "F.SilkS")
@@ -4729,6 +4759,19 @@
 				(bold yes)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "BREAKOUT 2"
+		(at 135.89 161.925 0)
+		(layer "F.SilkS")
+		(uuid "f8e9fa88-0102-4b54-a371-ee1426512e85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
 		)
 	)
 	(gr_text_box "1 D_IN		2 D_OUT\n3 BLANKING	4 CLOCK\n5 STROBE	6 DIMMING\n7 12V		8 GND"
@@ -4750,7 +4793,7 @@
 			(type solid)
 		)
 	)
-	(gr_text_box "+		-"
+	(gr_text_box "- 12V +"
 		(start 118.63 91.31125)
 		(end 120.13 96.64875)
 		(margins 0.425 0.425 0.425 0.425)
@@ -4762,7 +4805,7 @@
 				(size 0.5 0.5)
 				(thickness 0.1)
 			)
-			(justify top mirror)
+			(justify top)
 		)
 		(border yes)
 		(stroke
@@ -5368,19 +5411,27 @@
 	)
 	(segment
 		(start 138.39 100.75)
-		(end 136.39 100.75)
+		(end 136.74 100.75)
 		(width 0.75)
 		(layer "F.Cu")
 		(net 7)
-		(uuid "148452e8-16e7-484c-959d-f0bb5932592a")
+		(uuid "407f59a7-64a9-472b-ad29-7e117b3dab1c")
+	)
+	(segment
+		(start 136.74 100.75)
+		(end 136.525 100.965)
+		(width 0.75)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "e4eb2e48-2c68-4df5-ada7-da7dec8f46fa")
 	)
 	(via
-		(at 136.39 100.75)
-		(size 0.6)
-		(drill 0.3)
+		(at 136.525 100.965)
+		(size 1)
+		(drill 0.75)
 		(layers "F.Cu" "B.Cu")
 		(net 7)
-		(uuid "e76b2651-1042-4ebc-a333-f43df4f4cd95")
+		(uuid "80f6a5ed-51a9-486a-b283-95ce671e7bf4")
 	)
 	(segment
 		(start 119.0625 153.035)
