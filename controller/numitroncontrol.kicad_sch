@@ -2778,17 +2778,6 @@
 		)
 		(uuid "4d9472e6-23e6-4d53-9676-f150648c7acf")
 	)
-	(text "Note: Sparkfun modules include i2c pullup resistors"
-		(exclude_from_sim no)
-		(at 63.5 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b90353c2-1b42-472d-b01c-8b2d4f0413e6")
-	)
 	(text "I2C"
 		(exclude_from_sim no)
 		(at 63.5 152.4 0)
@@ -4864,7 +4853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RTC"
+		(property "Value" "I2C"
 			(at 68.58 132.0799 0)
 			(effects
 				(font
@@ -5629,7 +5618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
 			(at 20.32 38.1 0)
 			(effects
 				(font
