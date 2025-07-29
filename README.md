@@ -1,7 +1,7 @@
 # NumitronClock
 
 ## Project Overview
-This project uses soviet IV-12 tubes (they were easier to find than actual Numitrons) for a fun, retro-inspired desk clock. The primary component of this design is a control board that will drive 2 tubes at a time. I will update this description and provide documentation as the project evolves.
+This project uses soviet IV-12 tubes (they were easier to find than actual Numitrons) for a fun, retro-inspired desk clock. The project is split into two main parts for modularity: a breakout board that can drive 2 tubes, and a control board with 2 outputs for breakout boards. I will update this description and provide documentation as the project evolves.
 
 
 ## NUMITRONS!
