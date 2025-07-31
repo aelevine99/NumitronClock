@@ -6066,7 +6066,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "IV-12 NUMITRON DRIVER BOARD\nA. LEVINE			REV.01"
+	(gr_text "IV-12 NUMITRON DRIVER BOARD\nA. LEVINE			REV.02"
 		(at 150 149.5 0)
 		(layer "F.SilkS")
 		(uuid "6a80cf41-3433-414b-b704-256e7a396470")
